@@ -1,3 +1,5 @@
+package chapter2;
+
 public class Hello {
 //    java.exe 자바 인터프리터에의해 항상 메인 메서드 호출되도록 약속됨.
     public static void main(String[] args){

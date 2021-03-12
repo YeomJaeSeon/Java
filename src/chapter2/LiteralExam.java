@@ -1,3 +1,5 @@
+package chapter2;
+
 public class LiteralExam {
     public static void main(String[] args){
         float pi = 3.14F;
