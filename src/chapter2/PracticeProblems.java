@@ -86,5 +86,12 @@ public class PracticeProblems {
 
         String name ="";
         System.out.println(name);
+
+        float f = 1234.3F;
+
+        byte b1 = 123;
+        short s1 = 1234;
+        int n1 = 12345;
+        long sequences = 100_000_000_000L;
     }
 }
