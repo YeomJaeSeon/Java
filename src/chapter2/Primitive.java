@@ -71,5 +71,12 @@ public class Primitive {
         System.out.println(ch10);
         System.out.println(shortNum);
 
+        char x1 = 'A';
+        char x2 = 65;
+
+
+        int codeOfX1 = (int)x1;
+        System.out.printf("x1의 유니코드 : %d%n", codeOfX1);
+
     }
 }
