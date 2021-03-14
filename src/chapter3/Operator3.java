@@ -16,7 +16,7 @@ public class Operator3 {
         System.out.println("c3=" + c3); // 'b'
 
         c1 = 'a';
-        c2 = c1 + 1;
+//        c2 = c1 + 1;
         
     }
 }
