@@ -38,7 +38,7 @@ class Buyer{
     int bonusPoint;
     // Vector 클래스는 동적인 객체배열을 만들때 사용함. 기본으로 10size, 그외추가로드어오면 동적으로 배열 length가 추가됨.
     // Vector클래스도 다형성으로 매개변수나 리턴타입이 Object로.. Object의 모든 자식 인스턴스가 들어와도되낟. - 다형성.(부모타입의 참조변수로 자식타입의 인스턴스 접근가능)
-    
+
     Vector<Product> items = new Vector<>();
 
     Buyer(int money, int bonusPoint){
