@@ -3,7 +3,6 @@ package chapter7.in.c;
 // getInstance사용
 class A{
     I i = InstanceManager.getInstance();
-    i.method();
 
 }
 interface I{
