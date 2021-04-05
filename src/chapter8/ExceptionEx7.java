@@ -19,6 +19,8 @@ public class ExceptionEx7 {
         } catch (Exception e){
             System.out.println("Exception");
         }
+        // catch블럭은 하나만 실행됨. try문에서 예외가 발생해서 예외인스턴스가 생성이되면 catch의 클래스와 instanceof하다가
+        // true인 catch블럭을 찾게되면 try - catch문 나오게된다.
         System.out.println(6);
     }
 }
