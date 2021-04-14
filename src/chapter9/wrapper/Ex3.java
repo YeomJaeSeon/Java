@@ -11,7 +11,8 @@ public class Ex3 {
         Object object = (Object) i;
 
         Long lng = 100L;
+
         int i2 = intg + 10;
-        long l = intg + lng; // 
+        long l = intg + lng; //
     }
 }
