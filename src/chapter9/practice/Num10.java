@@ -12,18 +12,19 @@ public class Num10 {
         if(length < str.length()){
             return str.substring(0, length);
         }
+        char[] source = str.toCharArray();
         char[] charArr = new char[length];
         for(int i = 0; i <charArr.length; i++){
             charArr[i] = ' ';
         }
         if(alignment == 0){
-            System.arraycopy(str, 0, charArr, 0, str.length());
+            System.arraycopy(source, 0, charArr, 0, str.length());
         }else if(alignment == 1){
-            System.arraycopy(str, 0, charArr, length / 2, str.length());
+            System.arraycopy(source, 0, charArr, (length - str.length()) / 2, str.length());
         }else{
-            System.arraycopy(str, 0, charArr, length - str.length(), str.length());
+            System.arraycopy(source, 0, charArr, length - str.length(), str.length());
         }
-        return str;
+        return new String(charArr);
 
     }
 }
