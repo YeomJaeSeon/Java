@@ -8,7 +8,8 @@ public class Test {
     static List<SoccerTeam>[] winnerList = new List[3];
     public static void main(String[] args) {
         // stream생성
-        List<Integer> list = Arrays.asList(1, 2, 3, 4 ,5);
+        List
+                <Integer> list = Arrays.asList(1, 2, 3, 4 ,5);
         //컬렉션 -> 스트림
         Stream<Integer> stream = list.stream(); //Collection 인터페이스의 stream()메서드로 스트림생성
         stream.sorted(Comparator.reverseOrder()).forEach(i -> System.out.println(i));
