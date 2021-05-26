@@ -116,7 +116,7 @@ public class StreamTest {
 
         OptionalInt optionalInt = intStream8.reduce(Integer::max);
         System.out.println("optionalInt = " + optionalInt.orElse(0));
-        
+
     }
 }
 
