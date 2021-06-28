@@ -120,7 +120,7 @@ public class Test2 {
         System.out.println(vv.trim());
         String wow = "         wow!!   zz is     ";
         System.out.println(wow.trim());
-        
+
 
 
     }
